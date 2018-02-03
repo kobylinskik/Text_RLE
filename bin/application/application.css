@@ -1,0 +1,52 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.root{	
+	/* Background pattern from Subtle Patterns */
+	-fx-background-image:url("circles-dark.png");
+	-fx-padding:10;
+}
+
+.label {
+	-fx-font-size:16px;
+	-fx-font-weight:bold;
+}
+
+.button {
+	-fx-background-color:rgb(34,28,74);
+	-fx-text-fill:rgb(255,255,255);	
+	-fx-border-radius:5;
+}
+
+.button:hover {
+	-fx-background-color:rgb(55,49,95);
+}
+
+.button:pressed {
+    -fx-scale-y: 0.95;
+    -fx-scale-x: 0.95;
+}
+
+.radio-button {
+	-fx-font-size: 16px;
+	-fx-font-weight:bold;
+}
+
+.text-field {
+	-fx-background-color:rgb(220,220,220);
+	-fx-border-color:rgb(34,28,74);
+	-fx-border-radius:5;
+}
+
+.text-field:focused {
+	-fx-background-color:rgb(200,200,255);
+}
+
+#left-container {
+	-fx-spacing:10px;
+}
+
+#right-container {
+	-fx-padding:10px;
+	-fx-spacing:10px;
+}
